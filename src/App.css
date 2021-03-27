@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+  }
+
+  .navbar-text {
+    margin: 0 auto !important;
+  }
+  
+
+  #map-container {
+    height: 540px;
+  }
+
+  #mapid {
+    height: 540px;
+  }
+  
+  .leaflet-popup-content {
+    text-align: center;
+  }
+  
+  .parallax-marker.label {
+    display: block;
+    font-weight: bold;
+    color: rgb(98, 56, 128);
+    text-align: center;
+    text-shadow: rgb(255, 255, 255) 1px 0 1px, rgb(255, 255, 255) -1px 0 1px, rgb(255, 255, 255) 0 -1px 1px, rgb(255, 255, 255) 0 1px 1px;
+    text-transform: uppercase;
+  }
+  
+  .parallax-marker.label.huge {
+    font-size: 96px;
+    color: rgba(185, 157, 185, 0.39);
+    text-shadow: none;
+  }
+  
+  .parallax-marker.label.big {
+    font-size: 24px;
+  }
+  
+  .parallax-marker.label.medium {
+    font-size: 16px;
+    font-weight: normal;
+    color: rgb(121, 85, 125);
+  }
+  
+  .parallax-marker.label.small {
+    font-size: 12px;
+    font-weight: normal;
+    color: rgb(137, 128, 144);
+    text-transform: none;
+  }
+  
+  h4, h5 {
+    text-align: center;
+  }
+
+  .brand-logo {
+    font-size: 1.5rem !important;
+  }
+
+  select {
+    display: block !important;
+  }
+
+  select:focus {
+    box-shadow: none !important;
+    outline: none !important;
+  }
+
+  .numberOfSchools {
+    font-weight: 650;
+    color: #455a64;
+  }
+
+  h6 {
+    color: #455a64 !important;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .leaflet-tooltip{
+    width: 300px !important;
+    white-space: normal !important; 
+  }
+
+  p {
+    padding: 0rem;
+    margin: 0rem;
+  }
+
+
+
+
+.ag-body-horizontal-scroll-viewport {
+    overflow-x: none !important;
+}
+
+/* canvas {
+  height: 325px !important;
+} */
+
+
+
+.custom-div-icon i.awesome {
+  margin: 12px auto;
+  font-size: 17px;
+}
+
+.marker-pin {
+  width: 30px;
+  height: 30px;
+  border-radius: 50% 50% 50% 0;
+  position: absolute;
+  transform: rotate(-45deg);
+  left: 50%;
+  top: 50%;
+  margin: -15px 0 0 -15px;
+}
+
+.marker-pin::after {
+    content: '';
+    width: 24px;
+    height: 24px;
+    margin: 3px 0 0 3px;
+    background: #fff;
+    position: absolute;
+    border-radius: 50%;
+ }
+
+
+.custom-div-icon i {
+   position: absolute;
+   width: 22px;
+   font-size: 22px;
+   left: 0;
+   right: 0;
+   margin: 10px auto;
+   text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .brand-logo {
+    font-size: 1rem !important;
+  }
+}
