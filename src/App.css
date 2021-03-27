@@ -82,7 +82,7 @@ body {
   }
 
   .leaflet-tooltip{
-    width: 300px !important;
+    width: 150px !important;
     white-space: normal !important; 
   }
 
