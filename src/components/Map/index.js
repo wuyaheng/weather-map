@@ -41,7 +41,7 @@ export default (props) => {
           case "Staten Island":
             return "#f5cb5c";
           default:
-            return "black";
+            return "#a0ced9";
         }
       }
 
@@ -53,7 +53,7 @@ export default (props) => {
             fillOpacity: 0.8,
             weight: 1.5
           };
-        },
+        },      
         onEachFeature: function (feature, layer) {
           layer.on({
             mouseover: function (event) {
@@ -70,6 +70,13 @@ export default (props) => {
             }
           });
           layer.bindTooltip("<p><b>" + feature.properties.name + "</b></p>");
+          // var label = L.marker(layer.getBounds().getCenter(), {
+          //   icon: L.divIcon({
+          //     className: 'label',
+          //     html: feature.properties.state_code,
+          //     iconSize: [20, 10]
+          //   })
+          // }).addTo(myMap);
         }
       }).addTo(myMap);
     }
